@@ -4,10 +4,16 @@ import { StatusBar } from 'expo-status-bar';
 
 import GoalItem from './components/GoalItem';
 import GoalInput from './components/GoalInput';
-
+const initialList=[
+  { text: 1, id: Math.random().toString()},
+  { text: 2, id: Math.random().toString()},
+  { text: 3, id: Math.random().toString()},
+  { text: 4, id: Math.random().toString()},
+  { text: 5, id: Math.random().toString()}, 
+]
 export default function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
-  const [courseGoals, setCourseGoals] = useState([]);
+  const [courseGoals, setCourseGoals] = useState(initialList);
 
   function startAddGoalHandler() {
     setModalIsVisible(true);
