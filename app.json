@@ -1,16 +1,17 @@
 {
   "expo": {
-    "name": "firstReactProject",
-    "slug": "firstReactProject",
+    "name": "RNCourse",
+    "slug": "RNCourse",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "backgroundColor": "#1e085a",
+    "orientation": "default",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,7 +22,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
