@@ -35,7 +35,7 @@ function StartGameScreen({ onPickNumber }) {
 
   return (
     <View style={styles.rootContainer}>
-      <Title>Guess My Number</Title>
+      <Title>Guess My Number App</Title>
       <Card>
         <InstructionText>ENter a number</InstructionText>
         <TextInput
